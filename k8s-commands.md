@@ -1,7 +1,7 @@
 # Basic Configuration & Deployment
 
 # Apply configurations
-kubectl apply -f <file.yaml>          # Deploy a resource
+- kubectl apply -f <file.yaml>          # Deploy a resource
 kubectl apply -f <directory/>         # Deploy all YAMLs in a directory
 
 # Create resources imperatively
