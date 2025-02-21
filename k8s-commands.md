@@ -2,7 +2,7 @@
 
 # Apply configurations
 - kubectl apply -f <file.yaml>          # Deploy a resource
-- kubectl apply -f <dir/>         # Deploy all YAMLs in a directory
+- kubectl apply -f <folder/>         # Deploy all YAMLs in a directory
 
 # Create resources imperatively
 - kubectl create deployment <name> --image=<image>
